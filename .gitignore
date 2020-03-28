@@ -1,4 +1,4 @@
-/flaskaws/
+flaskaws
 .idea
 app.db
 migrations
