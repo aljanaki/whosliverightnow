@@ -1,6 +1,7 @@
-flaskaws
-.idea
+flaskaws/
+.idea/
 app.db
-migrations
-__pycache__
+migrations/
+__pycache__/
 .flaskenv
+
