@@ -1,4 +1,6 @@
 flask
+wheel
 python-dotenv
 flask-sqlalchemy
 flask-migrate
+mysqlclient

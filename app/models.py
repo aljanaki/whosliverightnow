@@ -32,5 +32,6 @@ class UserGenres(db.Model):
 class UserArtists(db.Model):
     ID = db.Column(db.Integer, primary_key=True)
     user_ID = db.Column(db.Integer)
-    artist_ID = db.Column(db.String(128), db.ForeignKey('artist.ID'))
+    #TODO when migrating the database to RDS, try again adding a foreign key
+    artist_ID = db.Column(db.String(128))#, db.ForeignKey('artist.ID')) #alembic currently fails to write the foreign key constraint in an acceptable syntax for MySQL
 
